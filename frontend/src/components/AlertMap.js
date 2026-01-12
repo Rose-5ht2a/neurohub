@@ -5,11 +5,16 @@ import L from 'leaflet';
 import './AlertMap.css';
 
 // Fix for default marker icons in react-leaflet
+// Using CDN URLs for marker icons
+const iconUrl = 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png';
+const iconRetinaUrl = 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png';
+const shadowUrl = 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png';
+
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+  iconRetinaUrl,
+  iconUrl,
+  shadowUrl,
 });
 
 const AlertMap = ({ alerts }) => {
@@ -86,7 +91,7 @@ const AlertMap = ({ alerts }) => {
                     <strong>Description:</strong> {alert.description}
                   </p>
                   <p className="alert-timestamp">
-                    {new Date(alert.timestamp).toLocaleString('fr-FR')}
+                    {new Date(alert.timestamp).toLocaleString(navigator.language || 'fr-FR')}
                   </p>
                 </div>
               </Popup>

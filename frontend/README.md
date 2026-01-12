@@ -46,7 +46,7 @@ REACT_APP_API_URL=http://localhost:5000
 
 ## Technologies
 
-- React 18
+- React 19
 - Leaflet & React-Leaflet
 - Axios
 - CSS3

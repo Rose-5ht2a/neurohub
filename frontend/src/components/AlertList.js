@@ -48,7 +48,7 @@ const AlertList = ({ alerts }) => {
                 <p className="alert-description">{alert.description}</p>
                 <div className="alert-meta">
                   <span className="alert-timestamp">
-                    📅 {new Date(alert.timestamp).toLocaleString('fr-FR')}
+                    📅 {new Date(alert.timestamp).toLocaleString(navigator.language || 'fr-FR')}
                   </span>
                 </div>
               </div>
