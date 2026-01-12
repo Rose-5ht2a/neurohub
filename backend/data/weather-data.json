@@ -1,0 +1,314 @@
+{
+  "cities": [
+    {
+      "id": "paris",
+      "name": "Paris",
+      "region": "Île-de-France",
+      "coordinates": { "lat": 48.8566, "lon": 2.3522 },
+      "current": {
+        "temperature": 12,
+        "feelsLike": 10,
+        "humidity": 75,
+        "windSpeed": 15,
+        "windDirection": "NE",
+        "precipitation": 2,
+        "pressure": 1013,
+        "cloudCover": 60,
+        "visibility": 10,
+        "uvIndex": 2,
+        "condition": "Nuageux",
+        "icon": "cloudy"
+      },
+      "forecast": [
+        {
+          "date": "2026-01-13",
+          "tempMin": 8,
+          "tempMax": 14,
+          "precipitation": 20,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        },
+        {
+          "date": "2026-01-14",
+          "tempMin": 6,
+          "tempMax": 12,
+          "precipitation": 60,
+          "condition": "Pluie",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-15",
+          "tempMin": 9,
+          "tempMax": 15,
+          "precipitation": 10,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-16",
+          "tempMin": 10,
+          "tempMax": 16,
+          "precipitation": 5,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-17",
+          "tempMin": 7,
+          "tempMax": 13,
+          "precipitation": 40,
+          "condition": "Averses",
+          "icon": "rainy"
+        }
+      ]
+    },
+    {
+      "id": "marseille",
+      "name": "Marseille",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "coordinates": { "lat": 43.2965, "lon": 5.3698 },
+      "current": {
+        "temperature": 16,
+        "feelsLike": 15,
+        "humidity": 65,
+        "windSpeed": 20,
+        "windDirection": "NO",
+        "precipitation": 0,
+        "pressure": 1015,
+        "cloudCover": 30,
+        "visibility": 15,
+        "uvIndex": 3,
+        "condition": "Ensoleillé",
+        "icon": "sunny"
+      },
+      "forecast": [
+        {
+          "date": "2026-01-13",
+          "tempMin": 12,
+          "tempMax": 18,
+          "precipitation": 10,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-14",
+          "tempMin": 11,
+          "tempMax": 17,
+          "precipitation": 15,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        },
+        {
+          "date": "2026-01-15",
+          "tempMin": 13,
+          "tempMax": 19,
+          "precipitation": 5,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-16",
+          "tempMin": 14,
+          "tempMax": 20,
+          "precipitation": 0,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-17",
+          "tempMin": 12,
+          "tempMax": 18,
+          "precipitation": 10,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        }
+      ]
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "coordinates": { "lat": 45.7640, "lon": 4.8357 },
+      "current": {
+        "temperature": 10,
+        "feelsLike": 8,
+        "humidity": 80,
+        "windSpeed": 10,
+        "windDirection": "S",
+        "precipitation": 5,
+        "pressure": 1012,
+        "cloudCover": 70,
+        "visibility": 8,
+        "uvIndex": 1,
+        "condition": "Bruine",
+        "icon": "drizzle"
+      },
+      "forecast": [
+        {
+          "date": "2026-01-13",
+          "tempMin": 7,
+          "tempMax": 13,
+          "precipitation": 30,
+          "condition": "Nuageux",
+          "icon": "cloudy"
+        },
+        {
+          "date": "2026-01-14",
+          "tempMin": 5,
+          "tempMax": 11,
+          "precipitation": 50,
+          "condition": "Pluie",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-15",
+          "tempMin": 8,
+          "tempMax": 14,
+          "precipitation": 20,
+          "condition": "Averses",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-16",
+          "tempMin": 9,
+          "tempMax": 15,
+          "precipitation": 10,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        },
+        {
+          "date": "2026-01-17",
+          "tempMin": 6,
+          "tempMax": 12,
+          "precipitation": 40,
+          "condition": "Pluie",
+          "icon": "rainy"
+        }
+      ]
+    },
+    {
+      "id": "toulouse",
+      "name": "Toulouse",
+      "region": "Occitanie",
+      "coordinates": { "lat": 43.6047, "lon": 1.4442 },
+      "current": {
+        "temperature": 14,
+        "feelsLike": 13,
+        "humidity": 70,
+        "windSpeed": 12,
+        "windDirection": "O",
+        "precipitation": 0,
+        "pressure": 1014,
+        "cloudCover": 40,
+        "visibility": 12,
+        "uvIndex": 2,
+        "condition": "Partiellement nuageux",
+        "icon": "partly-cloudy"
+      },
+      "forecast": [
+        {
+          "date": "2026-01-13",
+          "tempMin": 10,
+          "tempMax": 16,
+          "precipitation": 15,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        },
+        {
+          "date": "2026-01-14",
+          "tempMin": 9,
+          "tempMax": 15,
+          "precipitation": 35,
+          "condition": "Averses",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-15",
+          "tempMin": 11,
+          "tempMax": 17,
+          "precipitation": 10,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-16",
+          "tempMin": 12,
+          "tempMax": 18,
+          "precipitation": 5,
+          "condition": "Ensoleillé",
+          "icon": "sunny"
+        },
+        {
+          "date": "2026-01-17",
+          "tempMin": 10,
+          "tempMax": 16,
+          "precipitation": 25,
+          "condition": "Nuageux",
+          "icon": "cloudy"
+        }
+      ]
+    },
+    {
+      "id": "bordeaux",
+      "name": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "coordinates": { "lat": 44.8378, "lon": -0.5792 },
+      "current": {
+        "temperature": 13,
+        "feelsLike": 11,
+        "humidity": 78,
+        "windSpeed": 18,
+        "windDirection": "O",
+        "precipitation": 3,
+        "pressure": 1010,
+        "cloudCover": 65,
+        "visibility": 9,
+        "uvIndex": 2,
+        "condition": "Nuageux",
+        "icon": "cloudy"
+      },
+      "forecast": [
+        {
+          "date": "2026-01-13",
+          "tempMin": 9,
+          "tempMax": 15,
+          "precipitation": 25,
+          "condition": "Nuageux",
+          "icon": "cloudy"
+        },
+        {
+          "date": "2026-01-14",
+          "tempMin": 8,
+          "tempMax": 14,
+          "precipitation": 45,
+          "condition": "Pluie",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-15",
+          "tempMin": 10,
+          "tempMax": 16,
+          "precipitation": 20,
+          "condition": "Averses",
+          "icon": "rainy"
+        },
+        {
+          "date": "2026-01-16",
+          "tempMin": 11,
+          "tempMax": 17,
+          "precipitation": 10,
+          "condition": "Partiellement nuageux",
+          "icon": "partly-cloudy"
+        },
+        {
+          "date": "2026-01-17",
+          "tempMin": 9,
+          "tempMax": 15,
+          "precipitation": 30,
+          "condition": "Averses",
+          "icon": "rainy"
+        }
+      ]
+    }
+  ]
+}

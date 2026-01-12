@@ -1,0 +1,53 @@
+.alert-banner {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alert-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.alert-icon {
+  font-size: 2rem;
+}
+
+.alert-text {
+  flex: 1;
+  color: #333;
+}
+
+.alert-text strong {
+  font-size: 1.2rem;
+}
+
+.alert-count {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.alert-link {
+  padding: 0.5rem 1.5rem;
+  background: white;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: opacity 0.3s;
+}
+
+.alert-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .alert-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

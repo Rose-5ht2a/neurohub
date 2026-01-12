@@ -1,0 +1,129 @@
+{
+  "alerts": [
+    {
+      "id": "alert-1",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "department": "Bouches-du-Rhône",
+      "level": "orange",
+      "type": "Vent violent",
+      "description": "Vents violents attendus avec des rafales jusqu'à 100 km/h",
+      "startDate": "2026-01-13T06:00:00",
+      "endDate": "2026-01-13T18:00:00",
+      "recommendations": [
+        "Limitez vos déplacements",
+        "Rangez les objets susceptibles d'être emportés",
+        "Ne vous promenez pas en forêt"
+      ]
+    },
+    {
+      "id": "alert-2",
+      "region": "Auvergne-Rhône-Alpes",
+      "department": "Rhône",
+      "level": "jaune",
+      "type": "Pluie-inondation",
+      "description": "Précipitations importantes prévues pouvant causer des inondations localisées",
+      "startDate": "2026-01-14T00:00:00",
+      "endDate": "2026-01-14T23:59:59",
+      "recommendations": [
+        "Soyez vigilants près des cours d'eau",
+        "Ne traversez pas les zones inondées",
+        "Restez informés de l'évolution de la situation"
+      ]
+    },
+    {
+      "id": "alert-3",
+      "region": "Nouvelle-Aquitaine",
+      "department": "Gironde",
+      "level": "jaune",
+      "type": "Orages",
+      "description": "Risque d'orages localement forts",
+      "startDate": "2026-01-15T12:00:00",
+      "endDate": "2026-01-15T20:00:00",
+      "recommendations": [
+        "Évitez les activités de plein air",
+        "Ne vous abritez pas sous les arbres",
+        "Débranchez les appareils électriques sensibles"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "ile-de-france",
+      "name": "Île-de-France",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "provence-alpes-cote-azur",
+      "name": "Provence-Alpes-Côte d'Azur",
+      "vigilanceLevel": "orange",
+      "coordinates": { "lat": 43.9352, "lon": 6.0679 }
+    },
+    {
+      "id": "auvergne-rhone-alpes",
+      "name": "Auvergne-Rhône-Alpes",
+      "vigilanceLevel": "jaune",
+      "coordinates": { "lat": 45.4471, "lon": 4.3851 }
+    },
+    {
+      "id": "occitanie",
+      "name": "Occitanie",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 43.6047, "lon": 1.4442 }
+    },
+    {
+      "id": "nouvelle-aquitaine",
+      "name": "Nouvelle-Aquitaine",
+      "vigilanceLevel": "jaune",
+      "coordinates": { "lat": 45.5815, "lon": 0.3406 }
+    },
+    {
+      "id": "grand-est",
+      "name": "Grand Est",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 48.6921, "lon": 6.1844 }
+    },
+    {
+      "id": "hauts-de-france",
+      "name": "Hauts-de-France",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 50.6292, "lon": 3.0573 }
+    },
+    {
+      "id": "normandie",
+      "name": "Normandie",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 49.1829, "lon": 0.3707 }
+    },
+    {
+      "id": "bretagne",
+      "name": "Bretagne",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 48.2020, "lon": -2.9326 }
+    },
+    {
+      "id": "pays-de-la-loire",
+      "name": "Pays de la Loire",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 47.2184, "lon": -1.5536 }
+    },
+    {
+      "id": "centre-val-de-loire",
+      "name": "Centre-Val de Loire",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 47.9029, "lon": 1.9093 }
+    },
+    {
+      "id": "bourgogne-franche-comte",
+      "name": "Bourgogne-Franche-Comté",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 47.2805, "lon": 4.9995 }
+    },
+    {
+      "id": "corse",
+      "name": "Corse",
+      "vigilanceLevel": "vert",
+      "coordinates": { "lat": 42.0396, "lon": 9.0129 }
+    }
+  ]
+}
