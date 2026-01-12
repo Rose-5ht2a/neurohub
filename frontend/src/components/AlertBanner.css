@@ -1,0 +1,58 @@
+.alert-banner-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.alert-banner {
+  color: white;
+  padding: 15px 20px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease-out;
+}
+
+.alert-banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.alert-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.alert-text {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .alert-banner {
+    padding: 12px 15px;
+  }
+  
+  .alert-text {
+    font-size: 14px;
+  }
+  
+  .alert-icon {
+    font-size: 20px;
+  }
+}
