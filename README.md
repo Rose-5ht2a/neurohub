@@ -79,6 +79,20 @@ npm start
 
 L'application devrait s'ouvrir automatiquement dans votre navigateur à l'adresse `http://localhost:3000`.
 
+## ☁️ Déploiement sur Vercel
+
+Pour déployer l'application sur Vercel (plateforme gratuite), consultez le guide détaillé :
+
+📖 **[Guide de déploiement Vercel](./VERCEL-DEPLOYMENT.md)**
+
+**Résumé rapide :**
+1. Créez un compte sur [vercel.com](https://vercel.com)
+2. Déployez d'abord le backend (dossier `backend`)
+3. Notez l'URL du backend
+4. Déployez le frontend (dossier `frontend`) avec la variable d'environnement `REACT_APP_API_URL`
+
+⚠️ **Note** : Sur Vercel, les modifications des alertes ne seront pas persistantes (serverless). Pour une persistance, il faudrait ajouter une base de données.
+
 ## 📁 Structure du Projet
 
 ```
