@@ -13,6 +13,11 @@ function App() {
     try {
       setLoading(true);
       const response = await fetch(`${API_URL}/api/weather`);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const result = await response.json();
       
       if (result.success) {
