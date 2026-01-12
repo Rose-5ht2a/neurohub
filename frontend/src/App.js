@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import WeatherCard from './components/WeatherCard';
 import './App.css';
 
@@ -9,11 +9,7 @@ function App() {
 
   const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
-  useEffect(() => {
-    fetchWeatherData();
-  }, []);
-
-  const fetchWeatherData = async () => {
+  const fetchWeatherData = useCallback(async () => {
     try {
       setLoading(true);
       const response = await fetch(`${API_URL}/api/weather`);
@@ -29,7 +25,11 @@ function App() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [API_URL]);
+
+  useEffect(() => {
+    fetchWeatherData();
+  }, [fetchWeatherData]);
 
   return (
     <div className="App">
